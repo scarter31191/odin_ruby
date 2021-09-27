@@ -34,12 +34,14 @@
 
 
 
-5.times { 
-    puts "Hello World!"
-}
+# 5.times { 
+#     puts "Hello World!"
+# }
 
 
 
-10.times do |num| 
-    puts "#{num}"
-end
+# 10.times do |num| 
+#     puts "#{num}"
+# end
+
+5.upto(10) {|num| print "#{num} "}
